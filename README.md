@@ -1,6 +1,8 @@
 The Challenge:
 
-The main use case for our API is to calculate real time statistic from the last 60 seconds. There will be two APIs, one of them is called every time a transaction is made. It is also the sole input of this rest API. The other one returns the statistic based of the transactions of the last 60.
+The main role of this API is to calculate real time statistic from the last 60 seconds. 
+It consists of two APIs, one is called every time a transaction is made.
+The other one returns the statistic based of the transactions of the last 60.
 
 
 POST /transactions
@@ -20,6 +22,7 @@ Content-Type: application/json
     "amount": 12.3,
     "timestamp": 1478192204000
 }
+
 Success response sample
 
 HTTP/1.1 201 Created
