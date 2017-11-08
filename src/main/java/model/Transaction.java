@@ -33,7 +33,7 @@ public class Transaction {
 
 	@Override
 	public String toString() {
-		return "Transaction [amount=" + amount + ", timestamp=" + timestamp + "]";
+		return "{\"amount\": amount,\"timestamp\": timestamp}";
 	}
 		
 	

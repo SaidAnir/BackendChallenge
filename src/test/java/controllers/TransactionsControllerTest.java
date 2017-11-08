@@ -31,6 +31,9 @@ public class TransactionsControllerTest {
 
     @Test
     public void shouldAcceptValidRequest() throws Exception {
+    	
+    	// timestamp should be given a cuurrent timestamp 
+    	// in order to test this case
         mvc.perform(post("/n26/api/transactions")
                 .contentType("application/json")
                 .content("{\"amount\": 12.3,\"timestamp\": 1510089875000}"))
