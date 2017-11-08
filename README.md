@@ -2,7 +2,7 @@ The Challenge:
 
 The main use case for our API is to calculate real time statistic from the last 60 seconds. There will be two APIs, one of them is called every time a transaction is made. It is also the sole input of this rest API. The other one returns the statistic based of the transactions of the last 60.
 
-Specs
+
 POST /transactions
 
 Each Time a new transaction happened, this endpoint will be called.
